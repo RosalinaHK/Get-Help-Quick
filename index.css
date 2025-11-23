@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(white, lightpink);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bot {
+    background-color: white;
+    border-color: hotpink;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 2%;
+    padding: 1.2%;
+    font-size: large;
+}
+
+.person {
+    background-color: pink;
+    border-color: hotpink;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 2%;
+    padding: 1.2%;
+    font-size: large;
+}
+
+.new {
+    margin: 2%;
+    padding: 1.2%;
+    font-size: large;
+}
+
+.new input {
+    flex: 1;
+    padding: 10px 14px;
+    font-size: 16px;
+
+    border: 2px solid hotpink;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.85);
+
+    outline: none;
+    transition: 0.25s ease;
+}
